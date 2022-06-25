@@ -3,7 +3,9 @@ package input;
 import java.util.Scanner;
 
 public class Input517 {
-
+/*
+ * 세 개의 실수를 입력 받아 반올림하여 소수 셋째 자리까지 출력하는 프로그램을 작성하시오.
+ */
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
@@ -14,6 +16,11 @@ public class Input517 {
 		dVar1 = scan.nextDouble();
 		dVar2 = scan.nextDouble();
 		dVar3 = scan.nextDouble();
-	}
+		
+		System.out.printf("%.3f\n",dVar1);
+		System.out.printf("%.3f\n",dVar2);
+		System.out.printf("%.3f\n",dVar3);
+		
+	}//main
 
-}
+}//class
