@@ -1,4 +1,4 @@
-package repetitive;
+package repetitive1;
 
 import java.util.Scanner;
 
