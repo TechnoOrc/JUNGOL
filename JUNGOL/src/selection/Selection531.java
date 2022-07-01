@@ -28,6 +28,7 @@ public class Selection531 {
 		double dVar = 0;
 		
 		dVar = sc.nextFloat();
+		sc.close();
 		
 		if(dVar <= 50.80) {
 			System.out.println("Flyweight");
@@ -40,6 +41,7 @@ public class Selection531 {
 		}else {
 			System.out.println("Heavyweight");
 		}//if
+		
 		
 	}//main
 

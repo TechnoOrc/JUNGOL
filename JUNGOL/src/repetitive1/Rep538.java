@@ -19,7 +19,7 @@ public static void main(String[] args) {
 			} else {
 			System.exit(0);
 			}
-		
+			scan.close();
 		}//while
 		
 		

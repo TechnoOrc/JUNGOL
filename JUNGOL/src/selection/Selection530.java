@@ -25,6 +25,8 @@ public class Selection530 {
 		iVar1 = sc.nextInt();
 		diffAge = 20 - iVar1;
 		
+		sc.close();
+		
 		if (iVar1 >= 20) {
 			System.out.println("adult");
 		} else {

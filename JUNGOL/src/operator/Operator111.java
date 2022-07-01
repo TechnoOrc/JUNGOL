@@ -31,6 +31,7 @@ public class Operator111 {
 		iVar3 = sc.nextInt();
 		iVar4 = sc.nextInt();
 		
+		sc.close();
 		sum = iVar1 + iVar2 + iVar3 + iVar4;
 		avg = sum / 4;
 		

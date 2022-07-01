@@ -30,6 +30,8 @@ public class Operator524 {
 		iVar1 = sc.nextInt();
 		iVar2 = sc.nextInt();
 		
+		sc.close();
+		
 		System.out.print((iVar1 != 0 && iVar2 !=0) + " " + (iVar1 != 0 || iVar2 !=0));
 		
 	}//main	

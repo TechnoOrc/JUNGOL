@@ -23,6 +23,8 @@ public class Operator112 {
 		iVar1 = sc.nextInt();
 		iVar2 = sc.nextInt();
 				
+		sc.close();
+		
 		System.out.println(iVar1 + " / " + iVar2 + " = " + (iVar1 / iVar2) + "..." +  (iVar1 % iVar2));
 	}//main
 

@@ -25,6 +25,8 @@ public class Selection528 {
 		
 		iVar1 = sc.nextInt();
 		
+		sc.close();
+		
 		if(iVar1 > 0) {
 			System.out.println(iVar1);
 		} else {

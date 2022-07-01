@@ -25,10 +25,12 @@ public class Operator113 {
 		
 		iVar1 = sc.nextInt();
 		iVar2 = sc.nextInt();
+		sc.close();
 		
 		System.out.println("width = " + (iVar1 + 5));
 		System.out.println("length = " + iVar2 * 2);
 		System.out.println("area = " + (iVar1 + 5) * (iVar2 * 2));
+		
 		
 	}//main
 

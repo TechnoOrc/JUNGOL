@@ -28,6 +28,8 @@ public class Operator115 {
 		iVar21 = sc.nextInt();
 		iVar22 = sc.nextInt();
 		
+		sc.close();
+		
 		System.out.print((iVar11 > iVar21) && (iVar12 > iVar22) ? true : false);
 		
 		

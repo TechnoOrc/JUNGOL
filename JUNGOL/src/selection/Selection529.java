@@ -29,6 +29,8 @@ public class Selection529 {
 		iVar2 = sc.nextInt();
 		int fatVar = (iVar2 + 100) - iVar1;
 		
+		sc.close();
+		
 		System.out.println(fatVar);
 		if (fatVar > 0) {
 			System.out.print("Obesity");

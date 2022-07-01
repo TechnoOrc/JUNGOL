@@ -27,6 +27,8 @@ public class Operator525 {
 		iVar2 = sc.nextInt();
 		iVar3 = sc.nextInt();
 		
+		sc.close();
+		
 		System.out.print(iVar1 > iVar2 && iVar1 > iVar3 ? true : false);
 		System.out.print(" ");
 		System.out.print(iVar1 == iVar2 && iVar1 == iVar3 ? true : false);

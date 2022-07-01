@@ -24,7 +24,7 @@ public class Selection532 {
 		
 		dVar1 = sc.nextFloat();
 		dVar2 = sc.nextFloat();
-		
+		sc.close();
 		if (dVar1 >= 4.0 && dVar2 >= 4.0) {
 			System.out.println("A");
 		} else if (dVar1 >= 3.0 && dVar2 >= 3.0) {

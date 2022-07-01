@@ -25,6 +25,8 @@ public class Operator114 {
 		iVar1 = sc.nextInt();
 		iVar2 = sc.nextInt();
 		
+		sc.close();
+		
 		System.out.println((++iVar1) + " " + (iVar2--));
 		System.out.println((iVar1) + " " + (iVar2));
 		

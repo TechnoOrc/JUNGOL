@@ -9,6 +9,7 @@ public class Rep537 {
 		Scanner scan = new Scanner(System.in);
 		int iPut = scan.nextInt();
 		int sum = 0;
+		scan.close();
 		
 		if(iPut <= 100) {
 			int i = 0;
@@ -17,6 +18,7 @@ public class Rep537 {
 				i++;
 			}//while
 		}//if
+		
 		System.out.println(sum);
 	}//main
 
