@@ -26,6 +26,8 @@ public class Selection535 {
 
 		Scanner sc = new Scanner(System.in);
 		float fVar = sc.nextFloat();
+		sc.close();
+		
 		int iVar = (int) fVar;
 		
 		if (iVar >= 0 && iVar <= 4.5) {
