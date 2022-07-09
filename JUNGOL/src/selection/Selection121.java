@@ -20,6 +20,7 @@ public class Selection121 {
 		Scanner sc = new Scanner(System.in);
 		
 		iVar = sc.nextInt();
+		sc.close();
 		if(iVar > 0 ) {
 			System.out.println("plus");
 		} else if(iVar < 0 ) {
