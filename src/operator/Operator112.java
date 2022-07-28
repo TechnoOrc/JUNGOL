@@ -17,7 +17,7 @@ public class Operator112 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		
+		 
 		int iVar1  = 0;
 		int iVar2  = 0;
 		iVar1 = sc.nextInt();
