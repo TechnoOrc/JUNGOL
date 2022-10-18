@@ -17,7 +17,7 @@ public static void main(String[] args) {
 				break; 
 			}
 		}
-		
+			scan.close();
 		for (int i = stopCnt-1 ; i >= 0; i--) {
 			System.out.print(jungArr[i] + " ");
 		}

@@ -29,6 +29,7 @@ public class Input516 {
 		dVar1 = scan.nextDouble();
 		dVar2 = scan.nextDouble();
 		cVar = scan.next();
+		scan.close();
 		System.out.printf("%.2f\n",dVar1);
 		System.out.printf("%.2f\n",dVar2);
 		System.out.println(cVar);

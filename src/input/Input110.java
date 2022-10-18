@@ -25,7 +25,7 @@ public class Input110 {
 		
 		System.out.print("yard? ");
 		dVar = sc.nextDouble();
-		
+		sc.close();
 		dCm = dVar * dYard;
 		System.out.printf("%.1fyard = %.1fcm",dVar,dCm);
 		

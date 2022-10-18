@@ -8,7 +8,6 @@ public class Array560 {
 		
 		int jungArr [] = new int [10];
 		int min = 1000;
-		int max = 0;
 		Scanner scan = new Scanner(System.in);
 		
 		for (int i = 0; i < jungArr.length; i++) {
@@ -21,7 +20,7 @@ public class Array560 {
 				min = jungArr[i];
 			} else if (jungArr [i] > min) continue;
 		}		
-		
+			scan.close();
 		System.out.print(min);
 	}//main
 

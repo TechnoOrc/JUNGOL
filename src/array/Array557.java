@@ -12,7 +12,7 @@ public class Array557 {
 		for (int i = 0; i < jungArr.length; i++) {
 			jungArr[i] = scan.next();
 		}
-	
+			scan.close();
 		for (int i = 0;  i <= 7; i++) {
 			if (i % 3 == 0) {
 				System.out.print(jungArr[i] + " ");

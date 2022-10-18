@@ -25,7 +25,8 @@ public static void main(String[] args) {
 		if(max == 0) {
 			max = 100;
 		} else if (min == 10000) min = 100;
-			
+		
+			scan.close();
 		System.out.print(max + " " + min);
 	
 		

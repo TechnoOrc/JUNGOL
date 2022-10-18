@@ -18,7 +18,7 @@ public class Selection632 {
 	public static void main(String[] args) {
 
 		int iVar1, iVar2, iVar3;
-		int min, max;
+		int min;
 		
 		Scanner sc = new Scanner(System.in);
 		iVar1 = sc.nextInt();

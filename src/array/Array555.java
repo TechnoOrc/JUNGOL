@@ -12,7 +12,7 @@ public class Array555 {
 		for (int i = 0; i < jungArr.length; i++) {
 			jungArr[i] = scan.next();
 		}
-		
+			scan.close();
 		for (int i = 0; i < jungArr.length; i++) {
 			System.out.print(jungArr[i]);
 		}

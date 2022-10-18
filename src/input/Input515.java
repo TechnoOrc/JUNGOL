@@ -23,6 +23,7 @@ public class Input515 {
 		
 		int intVar1 = scan.nextInt();
 		int intVar2 = scan.nextInt();
+		scan.close();
 		System.out.println(intVar1 + " * " + intVar2 + " = " + intVar1 * intVar2);
 		System.out.print(intVar1 + " / " + intVar2 + " = " + intVar1 / intVar2);
 		

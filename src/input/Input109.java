@@ -25,6 +25,7 @@ public class Input109 {
 		iVar2 = sc.nextInt();
 		iVar3 = sc.nextInt();
 		sum = iVar1 + iVar2 + iVar3;
+		sc.close();
 		System.out.println("sum = " + sum);
 		
 	}//main

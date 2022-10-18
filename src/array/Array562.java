@@ -24,7 +24,7 @@ public class Array562 {
 		double avg = (double) sum2 / count;
 		System.out.println("sum : " + sum1);
 		System.out.printf("avg : " + "%.1f", avg);
-		
+		scan.close();
 	}//main
 
 }//class

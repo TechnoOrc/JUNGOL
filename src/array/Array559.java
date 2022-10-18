@@ -12,7 +12,7 @@ public class Array559 {
 		int inPut1, inPut2;
 		inPut1 = scan.nextInt();
 		inPut2 = scan.nextInt();
-		
+			scan.close();
 		double avgVar = jungArr[inPut1 - 1] + jungArr[inPut2 - 1];
 		System.out.printf("%.1f", avgVar);
 

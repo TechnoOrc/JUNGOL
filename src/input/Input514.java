@@ -21,6 +21,7 @@ public class Input514 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("height = ");
 		int key = scan.nextInt();
+		scan.close();
 		System.out.print("Your height is " + key + "cm.");
 		
 	}

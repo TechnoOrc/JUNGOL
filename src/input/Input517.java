@@ -28,6 +28,7 @@ public class Input517 {
 		dVar1 = scan.nextDouble();
 		dVar2 = scan.nextDouble();
 		dVar3 = scan.nextDouble();
+		scan.close();
 		
 		System.out.printf("%.3f\n",dVar1);
 		System.out.printf("%.3f\n",dVar2);
